@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EduEthiopia Admin</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <div class="logo">
+        <i class="fas fa-graduation-cap"></i>
+        <h2>EduEthiopia</h2>
+    </div>
+
+    <ul class="nav">
+        <li class="active">Dashboard</li>
+        <li>Register Student</li>
+        <li>Student List</li>
+        <li>Files</li>
+        <li>Admin Zone</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+
+    <div class="sidebar-footer">
+        eduethiopia3@gmail.com <br>
+        <button>Sign Out</button>
+    </div>
+</div>
+
+<div class="main">
+    <div class="header">
+        <h1>Dashboard</h1>
+        <div class="user">Admin</div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <i class="fas fa-users"></i>
+            <h2 id="studentsCount">0</h2>
+            <p>Total Students</p>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h2 id="regionsCount">14</h2>
+            <p>Regions</p>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-city"></i>
+            <h2 id="citiesCount">92</h2>
+            <p>Cities</p>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-file"></i>
+            <h2 id="filesCount">0</h2>
+            <p>Files</p>
+        </div>
+    </div>
+
+    <div class="recent">
+        <h3>Recent Students</h3>
+        <div class="empty">No students yet</div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
